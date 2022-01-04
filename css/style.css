@@ -20,7 +20,6 @@ body{
     font-family: 'Spartan', sans-serif;
     font-size: 1.6rem;
     margin: 0;
-    background: url(../images/bg-pattern-top-desktop.svg) no-repeat,url(../images/bg-pattern-bottom-desktop.svg) no-repeat 50% 100%;
 }
 a{
     text-decoration: none;
@@ -61,10 +60,10 @@ ul{
 /* end global rules */
 .proof{
     min-height: 100vh;
-    padding: 20rem 0;
+    padding: 20rem 0 0;
     position: relative;
     overflow: hidden;
-    
+    background: url(../images/bg-pattern-top-desktop.svg) no-repeat,url(../images/bg-pattern-bottom-desktop.svg) no-repeat 50% 100%;
 }
 
 @media (max-width:991px){
